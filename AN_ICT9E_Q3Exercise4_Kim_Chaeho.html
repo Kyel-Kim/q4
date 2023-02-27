@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href='https://fonts.googleapis.com/css?family=Buenard' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+	<style type="text/css">
+		th, td{
+			font-family: Buenard;
+		}
+		h1{
+			font-family: Space Grotesk;
+		}
+		img{
+			height: 90px;
+			width: 90px;
+		}
+	</style>
+	<title>Q3 Exercise 2</title>
+</head>
+<body>
+	<div class="container">
+	<h1>BOOTSTRAP TABLES</h1>
+	<table class="table table-striped table-hover table-act table-active">
+		<tr>
+			<th>Profile Picture</th>
+			<th>First Name</th>
+			<th>Surname</th>
+			<th>Grade & Section</th>
+		</tr>
+		<tr>
+			<td><img src="https://scontent.fcrk1-4.fna.fbcdn.net/v/t39.30808-6/295867001_3248923248760078_3318791366340048819_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=jyharGry2XsAX9lZmk1&_nc_ht=scontent.fcrk1-4.fna&oh=00_AfBuKPxlKxSzvBjMX-CkiSDJ_mY1Kkd5QuziGBPxH500Lw&oe=63EF3132"></td>
+			<td>Marcus </td>
+			<td>Chu Tan</td>
+			<td>9-Emerald</td>
+		</tr>
+		<tr>
+			<td><img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/330588026_501757745456790_1378990229124257752_n.png?_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=1j5ewiTNgwYAX9rk1vS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSFNULn1n3AyJ_wd82eXO_0NnPVjRiBjUmTKeLkIK_XsQ&oe=64124AFB"></td>
+			<td>Teacher</td>
+			<td></td>
+			<td>9-Emerald</td>
+		</tr>
+		<tr>
+			<td><img src="https://pharmacy.utah.edu/sites/g/files/zrelqx186/files/media/images/2021/Varney-JP.jpg"></td>
+			<td>James</td>
+			<td>Gilbert</td>
+			<td>9-Ruby</td>
+		</tr>
+	</table>
+	</div>
+	<h2>Adding New Students</h2>
+<div class="container bg-dark text-light">
+<form class="form-group">
+	Enter Firstname: <input type="text" name="firstname" class="firstname"><br>
+	Enter Lastname: <input type="text" name="lastname" class="lastname"><br>
+	Choose Section:
+	<select class="form-control">
+		<option>Emerald</option>
+		<option>Ruby</option>
+		<option>Amethyst</option>
+		<option>Garnet</option>
+	</select>
+	<br>
+	Date Enrolled: <input type="date" name="enrolled" class="form-control">
+	<br>
+	<input type="submit" value="ADD STUDENT" class="btn btn-warning">
+	<br>
+	<input type="reset" value="CANCEL" class="btn btn-danger">
+	<br>
+</form>
+</body>
+</html>
